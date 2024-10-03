@@ -18,7 +18,7 @@ const Header = (props) => {
       <div className="content">
         <div className="inner">
           <h1>カンサォン・ノーヴァ コーラスネクスト 3.0</h1>
-          <h3>怖くて美しい 〜陰翳礼讃〜</h3>
+          <h3>「怖くて美しい」-陰翳礼賛-</h3>
           {/* <h2>
           <a
             target="_blank"
