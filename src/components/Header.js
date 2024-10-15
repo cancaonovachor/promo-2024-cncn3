@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types'
 // import pic02 from '../images/shirotokamojinashi.png'
 
@@ -6,7 +6,24 @@ import PropTypes from 'prop-types'
 // import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import Countdown from './util/Countdown'
 
+
+
 const Header = (props) => {
+  const [isSp, setIsSp] = useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSp(window.innerWidth <= 500);
+    };
+
+    // コンポーネントマウント時に一度検出を実行
+    handleResize();
+
+    // ウィンドウのリサイズイベントに応じて検出を実行
+    window.addEventListener('resize', handleResize);
+
+    // コンポーネントアンマウント時にイベントリスナーをクリーンアップ
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   const target = new Date('2024-12-01T00:00:00') // ここに目標の日時を設定
   return (
     <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -17,7 +34,13 @@ const Header = (props) => {
     </div> */}
       <div className="content">
         <div className="inner">
-          <h1>カンサォン・ノーヴァ コーラスネクスト 3.0</h1>
+          {
+            isSp ? (
+              <h1>カンサォン・ノーヴァ{<br/>}コーラスネクスト{<br/>}3.0</h1>
+            ) : (
+              <h1>カンサォン・ノーヴァ コーラスネクスト 3.0</h1>
+            )
+          }
           <h3>「怖くて美しい」-陰翳礼賛-</h3>
           {/* <h2>
           <a
@@ -32,7 +55,14 @@ const Header = (props) => {
           {/* <p>1st Session 13:00-14:00</p>
         <p>2nd Session 14:00-15:30</p>
         <p>3rd Session 15:30-16:30</p> */}
-          <h2>神戸ファッション美術館 オルビスホール</h2>
+        {
+            isSp ? (
+              <h2>神戸ファッション美術館{<br/>}オルビスホール</h2>
+            ) : (
+              <h2>神戸ファッション美術館 オルビスホール</h2>
+            )
+          }
+          
           <div style={{ height: '1rem' }}></div>
           <h1>チケット販売まで</h1>
           <h1>
