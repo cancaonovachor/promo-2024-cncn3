@@ -43,7 +43,7 @@ const Layout = ({ children, location }) => {
         metas={[
           {
             name: 'description',
-            content: 'CancaoNova Chorus Next 2.0 promotion page',
+            content: 'CancaoNova Chorus Next 3.0 promotion page',
           },
           {
             name: 'keywords',
