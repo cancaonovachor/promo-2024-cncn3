@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { useState, useEffect } from 'react';
-import secoundSession from '../images/2nd-session.jpg'
-import zentai from '../images/zentai-ticc.jpg'
+import secoundSession from '../images/2.0-2nd.jpg'
+import zentai from '../images/nova-zentai.jpg'
 import ichiji from '../images/ichiji.jpg'
 import yuge from '../images/yuge.jpg'
 import shachiko from '../images/shachiko.jpg'
@@ -12,7 +12,7 @@ import kinun from '../images/kinun.jpg'
 import hanamizuki from '../images/hanamizuki.jpg'
 import manderart from '../images/manderart.jpg'
 import volare from '../images/volare.jpeg'
-import kiito_senzai from '../images/kiito_senzai_edit.jpg'
+import kiito_senzai from '../images/cncn2-3rd.jpg'
 import access from '../images/access.jpg'
 import kawata from '../images/kawata.png'
 import odorimai from '../images/odorimai.jpg'
@@ -69,7 +69,7 @@ const Main = (props) => {
           <iframe
             width="560"
             height="350"
-            src="https://www.youtube.com/embed/XZyK2k2tf7g?si=qU1ybeh1kcflq0Bx"
+            src="https://www.youtube.com/embed/hqiTs_N3a5A?si=-SYqs7tBLX_xIOOl"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -77,11 +77,12 @@ const Main = (props) => {
           ></iframe>
         </div>
         <p>
-          合唱団
+          合唱団{' '}
           <a className="use-border" href="https://cancaonovachor.com/">
             CancaoNova
           </a>
-          2回目の定期演奏会
+          {' '}
+          3回目の定期演奏会
         </p>
         <p>
           私たちが選んだ珠玉の名曲と培ってきたテクノロジーの力を活用し、合唱の今と未来を描き出します。
@@ -120,19 +121,21 @@ const Main = (props) => {
         </p>
         <p>
           入場料￥2500 前売り￥2000
-          <br></br>※前売り価格は2/9 23:59までです。
-          <br></br>※学生の方は全期間を通して各料金から500円引きです。
+          <br />※前売り価格は2/8 23:59までです。
+          <br />※学生の方は全期間を通して各料金から500円引きです。
         </p>
         <p>時間：13:00〜</p>
         <p>
           演奏予定曲：
-          <br></br>・Matona mia Cara - Orlande de Lassus
-          <br></br>・Contrapunto bestiale alla mente - Adriano Banchieri
-          <br></br>・Mass for 3 Voices より Kyrie, Gloria, Sanctus, Benedictus, Agnus Dei - William Byrd
-          <br></br>・Nonsense Madrigals より The Alphabet, The Lobster Quadrille - Ligeti Gyorgy-
-          <br></br>・Tenebrae - Marcus Ludwig
-          <br></br>・秋の歌 - 南弘明
-          <br></br>・Furusato - Philip Lawson (arr.)
+          <br />・Matona mia Cara - Orlande de Lassus
+          <br />・Contrapunto bestiale alla mente - Adriano Banchieri
+          <br />・Mass for 3 Voices より Kyrie, Gloria, Sanctus, Benedictus, Agnus Dei
+          <br />　- William Byrd
+          <br />・Nonsense Madrigals より The Alphabet, The Lobster Quadrille
+          <br />　- Ligeti Gyorgy
+          <br />・Tenebrae - Marcus Ludwig
+          <br />・秋の歌 - 南弘明
+          <br />・Furusato - Philip Lawson (arr.)
         </p>
         {/* <p>
           <a
@@ -152,12 +155,13 @@ const Main = (props) => {
           子ども達に魚の魅力を伝える「さかなのおにいさん」として書籍の執筆や、テレビ東京「シナぷしゅ」での音楽・アニメーションなども制作。メディア出演・クリエイターとしてもマルチに活動している。
         </p> */}
         <p>
-          <b>ピアニスト: 小鳥舞</b>
-          <span className="image-main main">
+          {/* <b>ピアニスト: 小鳥舞</b> */}
+          ピアニスト: 小鳥舞
+          {/* <span className="image-main main">
             <img src={odorimai} alt="" />
-          </span>
+          </span> */}
         </p>
-        <p>
+        {/* <p>
           武庫川女子大学音楽学部演奏学科卒業。兵庫教育大学大学院修了。
           武庫川女子大学新人演奏会をはじめ、リーガロイヤルホテルでのコンサート等、様々な演奏会に出演。また、神戸フィルハーモニック、ウクライナ・リヴィウ国際音楽祭にてLviv
           Virtuosos Academic Chamber Ochestraと共演。
@@ -165,7 +169,7 @@ const Main = (props) => {
           現在、アンサンブルピアニストとして幅広く活動中。
           混声合唱フロイデ21、関西大学初等部合唱部常任ピアニスト。
           これまでに、奈良田朋子、木下千代の各氏に師事。
-        </p>
+        </p> */}
         <br />
 
         <span className="image-main main">
@@ -178,7 +182,7 @@ const Main = (props) => {
         </p>
         <p>
           料金：無料（入場には1stまたは3rd sessionの入場券が必要です。)
-          <br></br>時間： 14:00〜
+          <br />時間： 14:00〜
         </p>
         {/* <br />
         <h3>基調講演</h3>
@@ -191,47 +195,51 @@ const Main = (props) => {
           あらゆる形式・ジャンルの合唱指導を行い、宝塚国際室内合唱コンクール等でグランプリ、セギッツィ国際合唱コンクールでは総合2位とMauro
           Chiocci特別賞を受賞、世界合唱シンポジウムでは2度にわたり特別招待演奏団体に選出され、講師も務める。現在、全国各地で審査員や合唱指導を引き受けるほか「アルティ声楽アンサンブル」等の各種合唱フェスティバルの企画や主催を行っている。現在、日本合唱指揮者協会理事。カワイ出版より「合唱エクササイズ(育成編･運営編・日本語編)」他、ブレーン株式会社より「合唱のイントロダクション」を上梓。「みなづきみのり」のペンネームで作詞活動展開中。
         </p> */}
-        <br />
+        
         <h3>合唱協賛</h3>
 
-        <a
+        {/* <a
           className="use-border"
-          href="https://twitter.com/tiamobbs"
+          href="https://twitter.com/"
           target="_blank"
         >
-          <b>Ti Amo</b>
-        </a>
-        <span className="image-main main">
+          <b>After Times</b>
+        </a> */}
+        ・After Times
+        <br />・甲南大学文化会グリークラブ
+        <br />・混声合唱団「花みずき」
+        <br />
+        {/* <span className="image-main main">
           <img src={tiamo} alt="" />
-        </span>
-        <p>
-          アメリカ発祥のバーバーショップスタイルで演奏する、男声四人組の社会人アカペラグループ、関西を、拠点に活動中。
-        </p>
+        </span> */}
+        {/* <p>
+          ここに文章を挿入
+        </p> */}
         <br />
         <h3>飲食協賛</h3>
         <a className="use-border" href="https://ichiji.net/" target="_blank">
           <b>ICHIJI</b>
         </a>
-        <span className="image-main main">
+        {/* <span className="image-main main">
           <img src={ichiji} alt="" />
-        </span>
+        </span> */}
         <p>
-          <br></br>カカオ豆本来の味わいや香りをお届けしたい。
-          <br></br>そんな思いからICHIJIは生まれました。
-          <br></br>この思いをカタチにすると
-          <br></br>チョコレートができるまでの全工程を自社工房で管理し製造する
-          <br></br>”Bean to Bar Chocolate”になりました。
-          <br></br>
-          <br></br>豆の仕入れから選別、焙煎、摩砕、調合、成形まで
-          <br></br>心をこめて手作業でやらせていただいています。
-          <br></br>
-          <br></br>きっと、チョコレートの概念が変わる
-          <br></br>”Bean to Bar Chocolate”をお楽しみください。
-          <br></br>
-          <br></br>
+          {/* <br />カカオ豆本来の味わいや香りをお届けしたい。
+          <br />そんな思いからICHIJIは生まれました。
+          <br />この思いをカタチにすると
+          <br />チョコレートができるまでの全工程を自社工房で管理し製造する
+          <br />”Bean to Bar Chocolate”になりました。
+          <br />
+          <br />豆の仕入れから選別、焙煎、摩砕、調合、成形まで
+          <br />心をこめて手作業でやらせていただいています。
+          <br />
+          <br />きっと、チョコレートの概念が変わる
+          <br />”Bean to Bar Chocolate”をお楽しみください。
+          <br />
+          <br />
           皆さんの生活に寄り添うように楽しめて、誰かと食べると会話が生まれる。そんな世界を目指しています。
-          <br></br>
-          <br></br>
+          <br />
+          <br /> */}
           <a
             className="use-border"
             href="https://yugecoffee.com/"
@@ -239,21 +247,21 @@ const Main = (props) => {
           >
             <b>ゆげ焙煎所</b>
           </a>
-          <span className="image-main main">
+          {/* <span className="image-main main">
             <img src={yuge} alt="" />
           </span>
-          <br></br>2013年、兵庫県西宮市の官公庁が多いエリアで創業。
-          <br></br>自家焙煎のスペシャルティコーヒー専門店
-          <br></br>
-          <br></br>イタリア製の完全熱風式焙煎機を使用
-          <br></br>毎朝、珈琲豆を丁寧に焙煎しています
-          <br></br>
-          <br></br>『心に響くコーヒー』
-          <br></br>
-          <br></br>を目指して、日々丁寧に
-          <br></br>取り組んでいます。
-          <br></br>
-          <br></br>
+          <br />2013年、兵庫県西宮市の官公庁が多いエリアで創業。
+          <br />自家焙煎のスペシャルティコーヒー専門店
+          <br />
+          <br />イタリア製の完全熱風式焙煎機を使用
+          <br />毎朝、珈琲豆を丁寧に焙煎しています
+          <br />
+          <br />『心に響くコーヒー』
+          <br />
+          <br />を目指して、日々丁寧に
+          <br />取り組んでいます。
+          <br />
+          <br /> */}
         </p>
         <br />
 
@@ -267,22 +275,22 @@ const Main = (props) => {
         </p>
         <p>
           入場料￥2500 前売り￥2000
-          <br></br>※前売りは2/9 23:59までです。
-          <br></br>※3rd Sessionには学生割引は存在しません、ご承知おきください。
+          <br />※前売りは2/8 23:59までです。
+          <br />※3rd Sessionには学生割引は存在しません、ご承知おきください。
         </p>
         <p>時間： 15:30〜</p>
         <p>
           {' '}
           演奏予定曲：
-          <br></br>デジタルアートステージ
-          <br></br>・とおりゃんせ - 下菌大樹（arr.）
-          <br></br>・Toryanse - 佐々木みほ（arr.）
-          <br></br>・ほたるこい - 小倉朗 （arr.）
-          <br></br>・白牡丹 - 多田武彦
-          <br></br>・夜まはり - 多田武彦
-          <br></br>・江戸子守唄 - 千原英喜
-          <br></br>・さくら - 武満徹（arr.）
-          <br></br>・Sora / Mizu - Matthew Wittall
+          <br />デジタルアートステージ
+          <br />・とおりゃんせ - 下菌大樹（arr.）
+          <br />・Toryanse - 佐々木みほ（arr.）
+          <br />・ほたるこい - 小倉朗 （arr.）
+          <br />・白牡丹 - 多田武彦
+          <br />・夜まはり - 多田武彦
+          <br />・江戸子守唄 - 千原英喜
+          <br />・さくら - 武満徹（arr.）
+          <br />・Sora / Mizu - Matthew Wittall
         </p>
         {/* <p>
           <a
@@ -296,12 +304,13 @@ const Main = (props) => {
             <img src={kawata} alt="" />
           </span>
         </p> */}
-        <br />
+        
         <p>
-          <b>ピアニスト: 小鳥舞</b>
-          <span className="image-main main">
+          {/* <b>ピアニスト: 小鳥舞</b> */}
+          ピアニスト: 小鳥舞
+          {/* <span className="image-main main">
             <img src={odorimai} alt="" />
-          </span>
+          </span> */}
         </p>
         {/* <p>
           武庫川女子大学音楽学部演奏学科卒業。兵庫教育大学大学院修了。

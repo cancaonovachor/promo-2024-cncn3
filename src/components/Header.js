@@ -102,26 +102,28 @@ const Header = (props) => {
           <li>
             <a
               className="use-border"
-              href="javascript:;"
-              onClick={() => {
-                props.onOpenArticle('access')
-              }}
+              // href="javascript:;"
+              // onClick={() => {
+              //   props.onOpenArticle('access')
+              // }}
+              href="https://www.fashionmuseum.jp/info/access.html"
+              target="_blank"
             >
-              Access
+              Access <FontAwesomeIcon icon={faExternalLinkAlt} /> 
             </a>
           </li>
           <li>
             <a
               className="use-border"
-              href="javascript:;"
-              onClick={() => {
-                props.onOpenArticle('ticket')
-              }}
-              // href="https://passmarket.yahoo.co.jp/event/show/detail/023pm8ynq6r21.html"
-              // target="_blank"
+              // href="javascript:;"
+              // onClick={() => {
+              //   props.onOpenArticle('ticket')
+              // }}
+              href="https://passmarket.yahoo.co.jp/event/show/detail/02xa3q79et141.html"
+              target="_blank"
             >
-              Ticket
-              {/* Ticket <FontAwesomeIcon icon={faExternalLinkAlt} />  */}
+              {/* Ticket */}
+              Ticket <FontAwesomeIcon icon={faExternalLinkAlt} /> 
             </a>
           </li>
         </ul>
