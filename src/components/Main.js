@@ -116,9 +116,7 @@ const Main = (props) => {
         </span>
         <h3>1st Session</h3>
         <p>
-          支部制を活かしながら様々なコンクールに出場している我々が、
-          今年1年コンクールのために練り上げた様々な曲を、詳細な解説とあわせてお届けします。
-          ルネサンスから近現代までの「受け継いできた合唱」をご堪能ください。
+          今年度のコンクール・演奏会で演奏した曲を中心に、詳細な解説を交えてお届けします。
         </p>
         <p>
           入場料￥2500 前売り￥2000
@@ -128,24 +126,15 @@ const Main = (props) => {
         <p>時間：13:00〜</p>
         <p>
           演奏予定曲：
-          <br></br>・Kyrie (William Byrd)
-          <br></br>・Agnus dei (William Byrd)
-          <br></br>・Viel Werden Kommen von Morgen und Abend (Heinrich Schutz)
-          <br></br>・Sammlet zuvor das Unkraut (Heinrich Schutz)
-          <br></br>・Beati Mortui (Felix Mendelssohn Bartholdy)
-          <br></br>・Die Minnesänger (Robert Schumann)
-          <br></br>・Fröhlich im Maien (Richard Strauss)
-          <br></br>・Tenebrae (Marcus Ludwig)
-          <br></br>・Salut, Dame Sainte (Francis Poulenc)
-          <br></br>・Tout Puissant (Francis Poulenc)
-          <br></br>・Seigneur, je vous en prie (Francis Poulenc)
-          <br></br>・Ô mes très chers fréres (Francis Poulenc)
-          <br></br>・煙草の時II (若林千春)
-          <br></br>・金魚 (多田武彦)
-          <br></br>・The Alphabet (Ligeti György)
-          <br></br>・Khorumi (Mamia Khatelishvili)
+          <br></br>・Matona mia Cara - Orlande de Lassus
+          <br></br>・Contrapunto bestiale alla mente - Adriano Banchieri
+          <br></br>・Mass for 3 Voices より Kyrie, Gloria, Sanctus, Benedictus, Agnus Dei - William Byrd
+          <br></br>・Nonsense Madrigals より The Alphabet, The Lobster Quadrille - Ligeti Gyorgy-
+          <br></br>・Tenebrae - Marcus Ludwig
+          <br></br>・秋の歌 - 南弘明
+          <br></br>・Furusato - Philip Lawson (arr.)
         </p>
-        <p>
+        {/* <p>
           <a
             className="use-border"
             href="https://twitter.com/honmachi169/"
@@ -161,6 +150,21 @@ const Main = (props) => {
           1990年大阪生まれ。地元Kiss FM
           KOBEのラジオDJ・声優・イベントMCなど幅広く活動。
           子ども達に魚の魅力を伝える「さかなのおにいさん」として書籍の執筆や、テレビ東京「シナぷしゅ」での音楽・アニメーションなども制作。メディア出演・クリエイターとしてもマルチに活動している。
+        </p> */}
+        <p>
+          <b>ピアニスト: 小鳥舞</b>
+          <span className="image-main main">
+            <img src={odorimai} alt="" />
+          </span>
+        </p>
+        <p>
+          武庫川女子大学音楽学部演奏学科卒業。兵庫教育大学大学院修了。
+          武庫川女子大学新人演奏会をはじめ、リーガロイヤルホテルでのコンサート等、様々な演奏会に出演。また、神戸フィルハーモニック、ウクライナ・リヴィウ国際音楽祭にてLviv
+          Virtuosos Academic Chamber Ochestraと共演。
+          東京国際芸術協会より受講費全額助成を受け、ウィーン国立音楽大学マスタークラスを修了し、選抜者コンサートに出演。ディプロマを取得。
+          現在、アンサンブルピアニストとして幅広く活動中。
+          混声合唱フロイデ21、関西大学初等部合唱部常任ピアニスト。
+          これまでに、奈良田朋子、木下千代の各氏に師事。
         </p>
         <br />
 
@@ -169,13 +173,14 @@ const Main = (props) => {
         </span>
         <h3>2nd Session</h3>
         <p>
-          全国的な活動を通じて知り合ってきた様々なゲストとともに、今年も「今ここにある合唱」を描き出し、皆さんとともに考えます。西宮の美味しいコーヒーとチョコレート、米粉スイーツを堪能しつつ、特別ゲストとの座談会、全国各地の合唱団の演奏、パネルディスカッションなど多様な企画をお楽しみください。
+          様々なゲストをお招きして「今ここにある合唱」を皆さまとともに考えます。
+          カフェスペースでくつろぎながら、特別ゲストとの座談会、各地の合唱団の演奏、ポスターセッションなど多様な企画をお楽しみください。※神戸ファッションプラザ 3F サン広場にて開催します。
         </p>
         <p>
           料金：無料（入場には1stまたは3rd sessionの入場券が必要です。)
           <br></br>時間： 14:00〜
         </p>
-        <br />
+        {/* <br />
         <h3>基調講演</h3>
 
         <b>伊東恵司</b>
@@ -185,7 +190,7 @@ const Main = (props) => {
         <p>
           あらゆる形式・ジャンルの合唱指導を行い、宝塚国際室内合唱コンクール等でグランプリ、セギッツィ国際合唱コンクールでは総合2位とMauro
           Chiocci特別賞を受賞、世界合唱シンポジウムでは2度にわたり特別招待演奏団体に選出され、講師も務める。現在、全国各地で審査員や合唱指導を引き受けるほか「アルティ声楽アンサンブル」等の各種合唱フェスティバルの企画や主催を行っている。現在、日本合唱指揮者協会理事。カワイ出版より「合唱エクササイズ(育成編･運営編・日本語編)」他、ブレーン株式会社より「合唱のイントロダクション」を上梓。「みなづきみのり」のペンネームで作詞活動展開中。
-        </p>
+        </p> */}
         <br />
         <h3>合唱協賛</h3>
 
@@ -202,66 +207,6 @@ const Main = (props) => {
         <p>
           アメリカ発祥のバーバーショップスタイルで演奏する、男声四人組の社会人アカペラグループ、関西を、拠点に活動中。
         </p>
-        <br />
-        <a
-          className="use-border"
-          href="https://twitter.com/choirvolare"
-          target="_blank"
-        >
-          <b>合唱団Volare</b>
-        </a>
-        <span className="image-main main">
-          <img src={volare} alt="" />
-        </span>
-        <p>
-          こんにちは！　合唱団Volareです。長田高校音楽部のOB・OG合唱団として発足して早15年。現代曲とポップスアレンジを中心に楽しく歌っています♪
-        </p>
-        <br />
-        <a
-          className="use-border"
-          href="https://twitter.com/syachi_girls"
-          target="_blank"
-        >
-          <b>しゃち子。</b>
-        </a>
-        <span className="image-main main">
-          <img src={shachiko} alt="" />
-        </span>
-        <p>
-          名古屋の選りすぐりのメスゴリラを集めた女声アンサンブル。東山動物園のイケメンゴリラ、シャバーニを師と仰ぎ、迫力と美しさを兼ね備えたサウンド「ゴリリアント・ハーモニー」を目指しています。しゃち子。2度目のCNCN！メンバーも増え、さらにレベルアップした私たちをお楽しみに！
-        </p>
-        <br />
-        <a
-          className="use-border"
-          href="https://twitter.com/chor_hanamizuki"
-          target="_blank"
-        >
-          <b>混声合唱団「花みずき」</b>
-        </a>
-        <span className="image-main main">
-          <img src={hanamizuki} alt="" />
-        </span>
-        <p>
-          尼崎市立立花中学校合唱部の卒業生により2006年に結成。現在は、兵庫県だけでなく全国からメンバーが集い、酒井輝美の音楽観のもと、日々「花みずき」らしい音楽表現を追求している。
-          第4回東京国際合唱コンクール室内部門にて1位金賞および最優秀課題曲賞を受賞し、グランプリコンクールに出場。同年、作曲家Javier
-          Busto 氏、作曲家Ambrož Čopi 氏によるレッスンを受ける。
-        </p>
-        <br />
-        <a
-          className="use-border"
-          href="https://twitter.com/Man_de_rart"
-          target="_blank"
-        >
-          <b>Man de rart</b>
-        </a>
-        <span className="image-main main">
-          <img src={manderart} alt="" />
-        </span>
-        <p>
-          「王道」な男声合唱曲で滾る演奏をしたいというコンセプトのもと、2023年3月に出来た男声合唱団。
-          第76回全日本合唱コンクール(大学ユースの部)にて文部科学大臣賞受賞。
-        </p>
-
         <br />
         <h3>飲食協賛</h3>
         <a className="use-border" href="https://ichiji.net/" target="_blank">
@@ -309,23 +254,7 @@ const Main = (props) => {
           <br></br>取り組んでいます。
           <br></br>
           <br></br>
-          <a
-            className="use-border"
-            href="https://www.komekosweets-kinun.com/"
-            target="_blank"
-          >
-            <b>米粉sweets kinun.</b>
-          </a>
-          <span className="image-main main">
-            <img src={kinun} alt="" />
-          </span>
-          <br></br>生まれ育った愛知県田原市産の米粉・玄米粉を中心に
-          <br></br>生産者さんの顔のみえる食材を使いお菓子を作っています。
-          <br></br>兵庫神戸 花隈に小さなアトリエを構え、
-          <br></br>見てかわいい、聞いて安心、食べておいしい
-          <br></br>「心も体も笑顔になれる米粉sweets」をお届けしています。
         </p>
-
         <br />
 
         <span className="image-main main">
@@ -333,8 +262,8 @@ const Main = (props) => {
         </span>
         <h3>3rd Session</h3>
         <p>
-          CancaoNovaが考える新しい合唱の形を皆様に提案します。
-          音楽とテクノロジーが融合したステージをどうぞお楽しみください。
+          「怖くて美しい」 - 陰翳礼賛 - をコンセプトに、日本をテーマにした楽曲を集めました。
+          音楽とテクノロジーが融合したデジタルアートステージをどうごお楽しみください。
         </p>
         <p>
           入場料￥2500 前売り￥2000
@@ -346,14 +275,16 @@ const Main = (props) => {
           {' '}
           演奏予定曲：
           <br></br>デジタルアートステージ
-          <br></br>・Digital Poliphony (下薗大樹)
-          <br></br>・Sederunt (Perotin)
-          <br></br>・Hinbarra (Michael McGlynn)
-          <br></br>・Ut queant laxis (Orland di Lasso)
-          <br></br>・Solfeggio (Arvo Pärt)
-          <br></br>・Proverb (Steve Reich)
+          <br></br>・とおりゃんせ - 下菌大樹（arr.）
+          <br></br>・Toryanse - 佐々木みほ（arr.）
+          <br></br>・ほたるこい - 小倉朗 （arr.）
+          <br></br>・白牡丹 - 多田武彦
+          <br></br>・夜まはり - 多田武彦
+          <br></br>・江戸子守唄 - 千原英喜
+          <br></br>・さくら - 武満徹（arr.）
+          <br></br>・Sora / Mizu - Matthew Wittall
         </p>
-        <p>
+        {/* <p>
           <a
             className="use-border"
             href="https://twitter.com/honmachi169/"
@@ -364,15 +295,15 @@ const Main = (props) => {
           <span className="image-main main">
             <img src={kawata} alt="" />
           </span>
-        </p>
+        </p> */}
         <br />
         <p>
-          <b>シンセサイザー伴奏: 小鳥舞</b>
+          <b>ピアニスト: 小鳥舞</b>
           <span className="image-main main">
             <img src={odorimai} alt="" />
           </span>
         </p>
-        <p>
+        {/* <p>
           武庫川女子大学音楽学部演奏学科卒業。兵庫教育大学大学院修了。
           武庫川女子大学新人演奏会をはじめ、リーガロイヤルホテルでのコンサート等、様々な演奏会に出演。また、神戸フィルハーモニック、ウクライナ・リヴィウ国際音楽祭にてLviv
           Virtuosos Academic Chamber Ochestraと共演。
@@ -380,7 +311,7 @@ const Main = (props) => {
           現在、アンサンブルピアニストとして幅広く活動中。
           混声合唱フロイデ21、関西大学初等部合唱部常任ピアニスト。
           これまでに、奈良田朋子、木下千代の各氏に師事。
-        </p>
+        </p> */}
 
         {close}
       </article>
