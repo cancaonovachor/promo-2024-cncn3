@@ -127,12 +127,12 @@ const Main = (props) => {
         <p>時間：13:00〜</p>
         <p>
           演奏予定曲：
-          <br />・Matona mia Cara - Orlande de Lassus
+          <br />・Matona mia cara - Orlande de Lassus
           <br />・Contrapunto bestiale alla mente - Adriano Banchieri
           <br />・Mass for 3 Voices より Kyrie, Gloria, Sanctus, Benedictus, Agnus Dei
           <br />　- William Byrd
           <br />・Nonsense Madrigals より The Alphabet, The Lobster Quadrille
-          <br />　- Ligeti Gyorgy
+          <br />　- Ligeti György
           <br />・Tenebrae - Marcus Ludwig
           <br />・秋の歌 - 南弘明
           <br />・Furusato - Philip Lawson (arr.)
@@ -181,7 +181,7 @@ const Main = (props) => {
           カフェスペースでくつろぎながら、特別ゲストとの座談会、各地の合唱団の演奏、ポスターセッションなど多様な企画をお楽しみください。※神戸ファッションプラザ 3F サン広場にて開催します。
         </p>
         <p>
-          料金：無料（入場には1stまたは3rd sessionの入場券が必要です。)
+          料金：無料（どなたでもご来場いただけます)
           <br />時間： 14:00〜
         </p>
         {/* <br />
@@ -205,9 +205,18 @@ const Main = (props) => {
         >
           <b>After Times</b>
         </a> */}
-        ・After Times
-        <br />・甲南大学文化会グリークラブ
-        <br />・混声合唱団「花みずき」
+        ・
+        <a className="use-border" href="https://x.com/EC_T_Lockers" target="_blank">
+          After Times
+        </a>
+        <br />・
+        <a className="use-border" href="https://x.com/konan_glee" target="_blank">
+          甲南大学文化会グリークラブ
+        </a>
+        <br />・
+        <a className="use-border" href="https://x.com/chor_hanamizuki" target="_blank">
+          混声合唱団「花みずき」
+        </a>
         <br />
         {/* <span className="image-main main">
           <img src={tiamo} alt="" />
@@ -282,15 +291,14 @@ const Main = (props) => {
         <p>
           {' '}
           演奏予定曲：
-          <br />デジタルアートステージ
-          <br />・とおりゃんせ - 下菌大樹（arr.）
+          <br />・とおりゃんせ - 下薗大樹（arr.）
           <br />・Toryanse - 佐々木みほ（arr.）
           <br />・ほたるこい - 小倉朗 （arr.）
           <br />・白牡丹 - 多田武彦
           <br />・夜まはり - 多田武彦
           <br />・江戸子守唄 - 千原英喜
           <br />・さくら - 武満徹（arr.）
-          <br />・Sora / Mizu - Matthew Wittall
+          <br />・Sora/Mizu - Matthew Whittall
         </p>
         {/* <p>
           <a
