@@ -1,0 +1,15 @@
+name: Scheduled Merge
+
+on:
+  schedule:
+    - cron: '45 14 30 11 *' # UTC 時間で 11月30日 14:45（日本時間 11月30日 23:45）
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Merge Pull Request
+        run: gh pr merge https://github.com/cancaonovachor/promo-2024-cncn3/pull/1 --merge --admin
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
