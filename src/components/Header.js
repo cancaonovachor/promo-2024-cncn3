@@ -53,7 +53,7 @@ const Header = (props) => {
           <h2>2025年3月9日 (日) </h2>
           <p>1st Session 13:00-14:00</p>
           <p>2nd Session 14:00-15:30</p>
-          <p>3rd Session 15:30-16:00</p>
+          <p>3rd Session 15:30-16:30</p>
         {
             isSp ? (
               <h2>神戸ファッション美術館{<br/>}オルビスホール</h2>
