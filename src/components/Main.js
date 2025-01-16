@@ -7,7 +7,7 @@ import yuge from '../images/yuge.jpg'
 import shachiko from '../images/shachiko.jpg'
 import tiamo from '../images/tiamo.jpg'
 import haishin from '../images/cncn1.0-haishin.jpg'
-import nyujo from '../images/cncn2.0-nyuujo.png'
+import nyujo from '../images/panhu.webp'
 import kinun from '../images/kinun.jpg'
 import hanamizuki from '../images/hanamizuki.jpg'
 import manderart from '../images/manderart.jpg'
@@ -358,7 +358,7 @@ const Main = (props) => {
         <h3>入場チケット (PassMarket)</h3>
         <span className="image-main main">
           <a
-            href="https://passmarket.yahoo.co.jp/event/show/detail/02my1a1uzic31.html"
+            href="https://passmarket.yahoo.co.jp/event/show/detail/02xa3q79et141.html"
             target="_blank"
           >
             <img src={nyujo} alt="" />
@@ -368,20 +368,20 @@ const Main = (props) => {
           演奏会への入場チケットは
           <a
             className="use-border"
-            href="https://passmarket.yahoo.co.jp/event/show/detail/02my1a1uzic31.html"
+            href="https://passmarket.yahoo.co.jp/event/show/detail/02xa3q79et141.html"
             target="_blank"
           >
             こちら
           </a>
           <br />
-          デジタルアートと合唱の融合など、新しい演奏会のスタイルを是非とも現場にてお聞き下さい。
+          私たちが選んだ珠玉の名曲と培ってきたテクノロジーの力を活用し、合唱の今と未来を描き出します。是非とも現場にてお聞き下さい。
         </p>
         <br />
         <h3>配信チケット (ZAIKO)</h3>
         <span className="image-main main">
           <a
             className="use-border"
-            href="https://cancaonova.zaiko.io/item/361641"
+            href="https://cancaonova.zaiko.io/e/cancaonova3"
             target="_blank"
           >
             <img src={haishin} alt="" />
@@ -391,7 +391,7 @@ const Main = (props) => {
           配信チケットは
           <a
             className="use-border"
-            href="https://cancaonova.zaiko.io/item/361641"
+            href="https://cancaonova.zaiko.io/e/cancaonova3"
             target="_blank"
           >
             こちら
