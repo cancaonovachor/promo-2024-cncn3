@@ -62,7 +62,7 @@ const Header = (props) => {
             )
           }
           
-          {/* <h1>
+          <h1>
             <a
               className="use-border"
               href="javascript:;"
@@ -72,7 +72,7 @@ const Header = (props) => {
             >
               Session Docs
             </a>
-          </h1> */}
+          </h1>
         </div>
       </div>
       <nav>

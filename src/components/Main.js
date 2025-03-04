@@ -410,40 +410,10 @@ const Main = (props) => {
         style={{ display: 'none' }}
       >
         <h2 className="major">Session Docs</h2>
-        <h3>投影資料＆ポスターセッション資料</h3>
-        {isSp ? (
-          <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vQlQDa_K5qV4HKGYQv-7YLylUGy57KVaR8-7At_6_-sma0NTVxirPlTM-Ap_Kb-IaQMXMmkZ_5Mok4g/embed?start=false&loop=false&delayms=3000"
-            frameborder="0"
-            width="100%"
-            height="270"
-            allowfullscreen="true"
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-          ></iframe>
-        ) : (
-          <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vQlQDa_K5qV4HKGYQv-7YLylUGy57KVaR8-7At_6_-sma0NTVxirPlTM-Ap_Kb-IaQMXMmkZ_5Mok4g//embed?start=false&loop=false&delayms=3000"
-            frameborder="0"
-            width="100%"
-            height="565"
-            allowfullscreen="true"
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-          ></iframe>
-        )}
-        <p>今回の演奏会で使用する投影資料です。ご自由にご覧ください。<br />
-          元のファイルは
-          <a className="use-border" href="https://docs.google.com/presentation/d/12DQKdC1DXTIy3o9CrehAbub7xcfuhy1_IwsqG7s-TFM/edit?usp=sharing">
-            こちら
-          </a>
-        </p>
-        <br />
-        <br />
         <h3>楽曲曲説＆パンフレット</h3>
         {isSp ? (
           <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vS66mDdHx_Svz8XGv1l4ApKFFZF5KrQ2h8dcw5Lezhdo_831d3GtMhp7uWaDtnBpSip1JmjMMfQBkdr/embed?start=false&loop=false&delayms=3000"
+            src="https://docs.google.com/presentation/d/e/2PACX-1vQRL034dMBOwWORF3CcUzGPN2Is62FXlp_66g6MEkKMbkjksjL-O5nKOHcVXwARmE1QZYRoY2Uhxfa-/embed?start=false&loop=false&delayms=3000"
             frameborder="0"
             width="100%"
             height="270"
@@ -453,7 +423,7 @@ const Main = (props) => {
           ></iframe>
         ) : (
           <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vS66mDdHx_Svz8XGv1l4ApKFFZF5KrQ2h8dcw5Lezhdo_831d3GtMhp7uWaDtnBpSip1JmjMMfQBkdr/embed?start=false&loop=false&delayms=3000"
+            src="https://docs.google.com/presentation/d/e/2PACX-1vQRL034dMBOwWORF3CcUzGPN2Is62FXlp_66g6MEkKMbkjksjL-O5nKOHcVXwARmE1QZYRoY2Uhxfa-/embed?start=false&loop=false&delayms=3000"
             frameborder="0"
             width="100%"
             height="565"
@@ -462,15 +432,16 @@ const Main = (props) => {
             webkitallowfullscreen="true"
           ></iframe>
         )}
-        <p>CNCN 2.0 の楽曲解説及びパンフレットです。<br />
+        <p>CNCN 3.0 の楽曲解説及びパンフレットです。<br />
         元のファイルは
-        <a className="use-border" href="https://docs.google.com/presentation/d/1qtWYi8PeojaoP57JlrSrfjPfUm46qxFMtiJW3wNg5P0/edit?usp=sharing">
+        <a className="use-border" href="https://docs.google.com/presentation/d/1FsZ3mZY7DL0sFOVaTbgWGWxnaYeJT2wPwp1DjHJywH8/edit?usp=sharing">
           こちら
         </a>
         </p>
         <br />
         {close}
       </article>
+
     </div>
   )
 }
